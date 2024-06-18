@@ -6,9 +6,9 @@ import telegram
 from dotenv import load_dotenv
 
 load_dotenv()
-bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
+bot_token = "7326500118:AAG-OnnlgoDaC395RxMd4KWbXdHbxN4kCaY"#os.getenv('TELEGRAM_BOT_TOKEN')
 bot_user_name = "Coin Price"
-URL =  os.getenv('SITE_URL')
+URL =  "https://telebot-seven-self.vercel.app/"#os.getenv('SITE_URL')
 
 global bot
 global TOKEN
